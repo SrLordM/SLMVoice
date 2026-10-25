@@ -61,3 +61,7 @@ SLM Voice runs on the client and does not install audio files on a server. Voice
 ## Source and license
 
 The source code is available in this repository. SLM Voice is licensed under **GPL-3.0-only**; see [`LICENSE`](LICENSE) and [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) for third-party license details.
+
+## Credits
+
+SLM Voice is based on KikuGie's [voicechat-soundboard](https://github.com/kikugie/voicechat-soundboard/tree/multiaddon) and has been modified and expanded. The included `kowoui` module has its own MIT license declaration; see [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).

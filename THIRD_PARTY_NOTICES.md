@@ -2,6 +2,10 @@
 
 This file records the components verified in the distributed SLM Voice 0.7.1 JAR. The exact nested JAR names are under `META-INF/jars/`; license texts listed below are included under `META-INF/licenses/` in both the mod JAR and the sources JAR. SLM Voice itself is licensed under GPL-3.0-only; see [`LICENSE`](LICENSE).
 
+## Upstream soundboard code
+
+The main SLM Voice soundboard is based on KikuGie's [`voicechat-soundboard` project, `multiaddon` branch](https://github.com/kikugie/voicechat-soundboard/tree/multiaddon), and has been modified and expanded for SLM Voice. The upstream root project declares GPLv3. This distribution preserves that GPLv3 basis under SLM Voice's GPL-3.0-only license; this credit refers to the original soundboard code, not later SLM Voice changes.
+
 ## Embedded components
 
 | Component | Embedded artifact/version | License evidence and attribution |
@@ -30,6 +34,6 @@ The notice does not identify a snapshot/version of the list. The MPL-2.0 text is
 - `LICENSES/Apache-2.0.txt`: complete Apache License 2.0 text; applies to OkHttp and Okio.
 - `LICENSES/MIT.txt`: MIT text and the available upstream attribution data for owo-sentinel and kowoui.
 - `LICENSES/MPL-2.0.txt`: complete Mozilla Public License 2.0 text for the Public Suffix List notice bundled in OkHttp.
-- `LICENSE`: complete GNU General Public License version 3 text for SLM Voice and the enclosing upstream soundboard project.
+- `LICENSE`: complete GNU General Public License version 3 text for SLM Voice and the GPLv3-based upstream soundboard code described above. The `kowoui` module separately declares MIT, as noted in the component table.
 
 The three LGPL source archives linked above were checked at the matching Maven Central coordinates and returned HTTP 200. The nested dependency JARs are kept as separate JAR-in-JAR entries; this project does not patch their contents. This notice and the included texts provide license information, but are not legal advice or a determination of compliance for a particular distribution method.
