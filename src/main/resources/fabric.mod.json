@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "slmvoice",
+  "version": "${version}",
+  "name": "SLM Voice",
+  "description": "SLM Voice adds a modern and customizable soundboard for Simple Voice Chat, allowing players to play WAV and MP3 audio directly through voice chat.",
+  "authors": [
+    "SrLordM"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/slm-voice"
+  },
+  "license": "GPL-3.0-only",
+  "icon": "assets/slmvoice/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "preLaunch": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.srlordm.slmvoice.entrypoint.SoundboardPrelaunch"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.srlordm.slmvoice.entrypoint.SVCEntrypoint"
+      }
+    ],
+    "voicechat": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.srlordm.slmvoice.entrypoint.SVCEntrypoint"
+      }
+    ]
+  },
+  "mixins": [
+    {
+      "environment": "client",
+      "config": "slmvoice.mixins.json"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "${minecraft}",
+    "fabric-language-kotlin": "${flk}",
+    "owo-lib": "${owolib}",
+    "fabric-api": "*",
+    "voicechat": "*"
+  },
+  "breaks": {
+    "slmvoice-svc": "*",
+    "soundboard-svc": "*",
+    "soundboard-plasmo": "*"
+  },
+  "accessWidener": "slmvoice.accesswidener"
+}

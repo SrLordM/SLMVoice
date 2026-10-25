@@ -1,0 +1,73 @@
+# gradle
+
+.gradle/
+.kotlin/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+
+# local minecraft/dev data
+/mods/
+/config/
+/logs/
+/crash-reports/
+*.log
+*.crash
+*.bak
+*.tmp
+/saves/
+/resourcepacks/
+/screenshots/
+/slmvoice/
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.m4a
+*.aac
+*.opus
+src/main/resources/resourcepacks/default/assets/slmvoice_example/slmvoice/metal_pipe.wav
+
+# local secrets
+local.properties
+gradle.properties.local
+.env
+.env.*
+
+# legacy adapters not used by the current SLM Voice release
+vc-simple/
+vc-plasmo/

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "Kotlin utility functions for OwO UI",
+  "authors": [
+    "KikuGie"
+  ],
+  "entrypoints": {
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.kikugie.kowoui.internal.KOwOUI"
+      }
+    ]
+  },
+  "mixins": [
+    "kowoui.mixins.json"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "${minecraft}",
+    "fabric-language-kotlin": "${flk}",
+    "owo-lib": "${owolib}",
+    "fabric-api": "*"
+  },
+  "custom": {
+    "loom:injected_interfaces": {
+      "io/wispforest/owo/ui/container/StackLayout": [
+        "dev/kikugie/kowoui/experimental/AppendableParentComponent",
+        "dev/kikugie/kowoui/experimental/MutableParentComponent"
+      ]
+    }
+  }
+}
