@@ -2,20 +2,12 @@
 
 ## 0.7.1 Beta
 
-Initial public beta release of SLM Voice.
+First public beta of SLM Voice.
 
-### Added
+- Play local MP3 and WAV clips through Simple Voice Chat.
+- Browse clips by folder, search, and mark favorites.
+- Assign shortcuts, adjust volume, and set playback start and end points for each clip.
+- Refresh the library without restarting the game.
+- Download supported URLs through a configured Cobalt API endpoint.
 
-- Modern soundboard interface for Simple Voice Chat.
-- MP3 and WAV playback support.
-- Folder/category organization using `.minecraft/config/slmvoice`.
-- Favorites.
-- Per-sound shortcuts, including multi-key shortcut combinations.
-- Volume control per sound.
-- Audio segment/cut settings.
-- Refresh button for newly added files.
-- Client-side playback through Simple Voice Chat.
-
-### Notes
-
-This is an early beta. Please report bugs with the Minecraft version, mod version, dependency versions, and steps to reproduce the issue.
+When reporting a bug, include your Minecraft and mod versions, dependency versions, and steps to reproduce it. Do not attach personal config files without checking them for private information.
