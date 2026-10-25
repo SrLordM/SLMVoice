@@ -3,12 +3,14 @@
   "id": "slmvoice",
   "version": "${version}",
   "name": "SLM Voice",
-  "description": "SLM Voice adds a modern and customizable soundboard for Simple Voice Chat, allowing players to play WAV and MP3 audio directly through voice chat.",
+  "description": "Play MP3 and WAV sounds through Simple Voice Chat, with custom keybinds, folders, favorites, and audio editing.",
   "authors": [
     "SrLordM"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/slm-voice"
+    "homepage": "https://modrinth.com/mod/slm-voice",
+    "sources": "https://github.com/SrLordM/SLMVoice",
+    "issues": "https://github.com/SrLordM/SLMVoice/issues"
   },
   "license": "GPL-3.0-only",
   "icon": "assets/slmvoice/icon.png",
